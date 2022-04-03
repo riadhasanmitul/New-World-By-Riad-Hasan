@@ -17,7 +17,6 @@ body {
     )
     no-repeat;
   font-family: "Poppins", sans-serif;
-  overflow-x: hidden;
 }
 .onload {
   position: fixed;
@@ -145,6 +144,9 @@ footer .row{
   display: flex;
   align-items: center;
 }
+footer .forborder{
+  border-right:1px solid rgb(255, 255, 255);
+}
 /* Resposive */
 @media (max-width: 1440px) {
   .carousel-inner img {
@@ -236,6 +238,9 @@ footer .row{
   }
   .carousel-inner img {
     height: 350px;
+  }
+  footer .forborder{
+    border-right:none;
   }
 }
 @media (max-width: 576px) {
