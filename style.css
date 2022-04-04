@@ -103,6 +103,10 @@ header ul .nav-link:hover::after {
 .section-1 h1 {
   color: #9b59b6;
 }
+.section-1 .h4 {
+  line-height: 45px;
+  font-weight: 400;
+}
 .section-2 .row {
   border-radius: 20px;
   gap: 30px;
