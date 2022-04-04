@@ -236,6 +236,10 @@ footer .forborder{
   .section-1 .card {
     margin: 0px 20px;
   }
+  .section-1 .h4 {
+    line-height: 30px;
+    font-weight: 400;
+  }
   .section-2 {
     margin: 0px 10px;
   }
