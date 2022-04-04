@@ -17,6 +17,8 @@ body {
     )
     no-repeat;
   font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 .onload {
   position: fixed;
@@ -87,13 +89,13 @@ header ul .nav-link:hover::after {
   font-size: 25px;
 }
 .section-1 .card {
-  border: 3px solid #f012be;
+  border: 3px solid #90c3db;
   border-radius: 16px;
   box-shadow: 1px 1px 5px #fff;
   z-index: 2;
 }
 .section-1 .card:hover {
-  box-shadow: 1px 1px 10px #fff;
+  box-shadow: 1px 1px 10px #24c8dd;
 }
 .section-1 p {
   color: #1578a7;
